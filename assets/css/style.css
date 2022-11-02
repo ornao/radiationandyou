@@ -43,6 +43,7 @@ nav {
 nav a {
     text-decoration: none;
     text-transform: capitalize;
+    font-family: Chelsea Market, sans-serif;
     margin: 20px;
     padding: 20px;
     color: black;
