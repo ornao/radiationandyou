@@ -1,12 +1,37 @@
-
-header h1 { 
-    text-align: center;
+* {
+    padding: 0;
+    margin:0;
+    border: none;
 }
-img { 
+
+
+/* heading and image section */
+
+img {
     height: 500px;
     width: 100%;
 }
 
+.banner {
+    position: relative;
+    text-align: center;
+    color: yellow;
+}
+
+#banner-image {
+    position: relative;
+}
+
+#banner-text {
+    position: absolute;
+    color: white;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(375%,375%);
+    /* w3schools how to position text over an image */
+}
+
+/* naviagtion section */
 nav {
     margin: 0px;
     padding: 0px;
