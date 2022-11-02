@@ -4,9 +4,7 @@
     border: none;
 }
 
-
 /* heading and image section */
-
 img {
     height: 500px;
     width: 100%;
@@ -25,10 +23,10 @@ img {
 #banner-text {
     position: absolute;
     color: white;
-    top: 50%;
-    bottom: 50%;
-    transform: translate(375%,375%);
-    /* w3schools how to position text over an image */
+    top: 30%;
+    bottom: 70%;
+    font-size: 100px;
+    /* changing the top, bottom values allowed me center the text better as it was off when i increased the size */
 }
 
 /* naviagtion section */
