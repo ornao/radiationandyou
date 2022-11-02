@@ -27,6 +27,7 @@ img {
     color: white;
     top: 30%;
     bottom: 70%;
+    margin-left: 7.5%;
     font-size: 100px;
     font-family: Chelsea Market, sans-serif;
     /* changing the top, bottom values allowed me center the text better as it was off when i increased the size */
