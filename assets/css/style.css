@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto:wght@300&display=swap');
+
 * {
     padding: 0;
     margin:0;
@@ -26,6 +28,7 @@ img {
     top: 30%;
     bottom: 70%;
     font-size: 100px;
+    font-family: Chelsea Market, sans-serif;
     /* changing the top, bottom values allowed me center the text better as it was off when i increased the size */
 }
 
