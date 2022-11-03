@@ -7,54 +7,48 @@
 }
 
 /* heading and image section */
-img {
-    height: 500px;
+
+h1 {
+    float: left;
+} 
+
+.image-text-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
     width: 100%;
+    background-color: white;
 }
 
-.banner {
-    position: relative;
-    text-align: center;
-    color: yellow;
+.image-text-container img {
+   height: 300px; 
 }
 
-#banner-image {
-    position: relative;
+.image-text-container h2 {
+    margin: 20px;
+    padding: 20px;
+    color:blue;
 }
 
-#banner-text {
-    position: absolute;
-    color: white;
-    top: 30%;
-    bottom: 70%;
-    margin-left: 7.5%;
-    font-size: 100px;
-    font-family: Chelsea Market, sans-serif;
-    /* changing the top, bottom values allowed me center the text better as it was off when i increased the size */
+.image-text-container p {
+    color: red; 
 }
 
-/* naviagtion section */
-nav {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
+/* naviagtion section */ 
 
+ nav {
+    float: right
+ }
 nav a {
     text-decoration: none;
     text-transform: capitalize;
     font-family: Chelsea Market, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    color: black;
 }
 
 
 nav a:hover {
     text-decoration: underline;
     text-transform: capitalize;
-    margin: 30px;
-    padding: 30px;
     color: purple;
     font-weight: bold;
 }
